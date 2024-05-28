@@ -1,0 +1,75 @@
+.rede-social-header{
+background: #faf9fe;
+background-image: url("../img/chocolateH.jpg");
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+color: #e5bd8b;
+}
+.logo-h1 {
+    display: flex;
+    align-items: center; 
+    margin: 0;
+}
+
+.logo {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 50px;
+    margin-left: 40px;
+    border: solid 3px #000;
+    border-radius: 4px;
+}
+
+header h1 {
+    color: #faf9fe;
+    margin-left: 20px; 
+}
+header input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid #000;
+
+    border-left:none ;
+    border-right:none ;
+    border-top:none ;
+}
+
+header .search{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    display: flex;
+    margin:30px;
+}
+
+.search button{
+    color: #f82b2b;
+    border: none;
+    margin: 3px;
+}
+
+header nav{
+ width: 100%;
+    display: inline-block;
+    padding: 16px;
+}
+
+ul li {
+    background: #fff;
+     padding: 10px;
+    
+     margin: 5px;
+    
+     display: inline;
+    color: #f82b2b;
+   }
+ 
+ ul a{
+     text-decoration: none;
+ }
+ ul li a:hover{
+    color: #f82b2b;
+     padding:10px;
+   }
+ 
+ 
