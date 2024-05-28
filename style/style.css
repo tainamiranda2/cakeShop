@@ -1,31 +1,37 @@
 footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-   background: #464646;
-  }
+  bottom: 0;
+  width: 100%;
 
-  .one, .redes-sociais {
-    flex: 1;
-    margin: 5x;
-  }
-  .one {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .redes-sociais {
-    display: flex;
-    float: right;
-    gap: 1px;
-  }
-  .redes-sociais a {
-   margin: 0 5px;
-  }
-  .endereco {
-    margin-top: 50px;
-  }
-  .zap {
-    margin-top: 10px;
-  }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #464646;
+  padding: 10px; /* Ajuste de padding para melhor espaçamento */
+  color: white; /* Texto em branco para melhor contraste */
+}
+
+.one, .redes-sociais {
+  flex: 1;
+  margin: 10px; /* Ajuste de margem para espaçamento adequado */
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: flex-end; /* Ajusta os links para a extremidade direita */
+  gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.redes-sociais a {
+  margin: 0 5px;
+}
+
+.endereco, .zap {
+  margin-top: 5px;
+}

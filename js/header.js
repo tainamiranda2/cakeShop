@@ -1,3 +1,26 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const links = document.querySelectorAll('nav ul li a');
+
+  links.forEach(link => {
+      link.addEventListener('click', function(event) {
+          event.preventDefault(); // Impede o comportamento padrão do link
+          
+          const sectionId = this.getAttribute('href'); // Obtém o href do link clicado
+          const targetSection = document.querySelector(sectionId); // Seleciona a seção correspondente
+
+          // Esconde todas as seções
+          const sections = document.querySelectorAll('.content-section');
+          sections.forEach(section => {
+              section.classList.add('d-none');
+          });
+
+          // Exibe a seção correspondente ao link clicado
+          targetSection.classList.remove('d-none');
+      });
+  });
+});
+
+
 document.getElementById('header').innerHTML = `
   <header>
   <div class="rede-social-header">
@@ -41,9 +64,10 @@ document.getElementById('header').innerHTML = `
 </div>
     <nav>
       <ul>
-        <li><a href="/">Bolo de pote tradicional</a></li>
-        <li><a href="/">Bolo de pote especial</a></li>
-        <li><a href="/">Bebidas</a></li>
+      <li><a href="#main">Home</a></li>
+        <li><a href="#bolosTradicional-section">Bolo de pote tradicional</a></li>
+        <li><a href="#bolosEspeciais-section">Bolo de pote especial</a></li>
+        <li><a href="#bebidas-section">Bebidas</a></li>
       </ul>
     </nav>
   </header>
