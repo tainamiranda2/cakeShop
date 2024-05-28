@@ -1,10 +1,14 @@
-.bolos, .doces, .pizza{
+.bolos, .doces, .pizza, .bolosTradicional-section, .bebidas{
     padding: 2px ;
 border: solid 1px #e5bd8b;
 transition: 0.3s;
 width: 20%;
 }
 
+#bolosTradicional-section img, #bolosEspeciais-section img, #bebidas-section img{
+width: 100px;
+
+}
 main img{
    
     width: 100px;
@@ -15,7 +19,7 @@ main img{
     margin:5px;
    
 }
-.bolos:hover, .doces:hover, .pizza:hover{
+.bolos:hover, .doces:hover, .pizza:hover, .bebidas:hover{
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         cursor: pointer;
       
