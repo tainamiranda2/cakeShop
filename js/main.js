@@ -1,3 +1,23 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll(' li a');
+  
+    links.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            
+            const sectionId = this.getAttribute('href'); 
+            const targetSection = document.querySelector(sectionId); 
+  
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.classList.add('d-none');
+            });
+  
+            targetSection.classList.remove('d-none');
+        });
+    });
+  });
+  
 function addBolodiv(num) {
     const container = document.getElementById('bolos-section');
 
@@ -7,9 +27,12 @@ function addBolodiv(num) {
         boloDiv.style.display = 'inline-block';
         boloDiv.style.margin = '5px';
         boloDiv.innerHTML = `
+
             <img src="../img/bolo.jpg" class="" alt="Bolo de exemplo"/>
             <div>
                 <h5>Bolos</h5>
+                <li><a href="#produto">teste</a></li>
+
                 <p>Bolo de chocolate ao leite</p>
                 <span>$ 36.00</span>
             </div>
