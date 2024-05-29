@@ -1,13 +1,35 @@
-.bolos, .doces, .pizza, .bolosTradicional-section, .bebidas{
+
+.bolos, .doces, .pizza, .bebidas{
     padding: 2px ;
 border: solid 1px #e5bd8b;
 transition: 0.3s;
 width: 20%;
 }
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%; 
+}
 
 #bolosTradicional-section img, #bolosEspeciais-section img, #bebidas-section img{
 width: 100px;
 
+
+}
+
+ #bolosTradicional-section, #bolosEspeciais-section, #bebidas-section{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%; 
+    margin: 0 auto;
 }
 main img{
    

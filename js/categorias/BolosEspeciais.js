@@ -15,14 +15,15 @@ function addBoloPotEspecialdiv(num) {
                 <span>$ 36.00</span>
             </div>
         `;
-        container.appendChild( boloPoteEspecialDiv);
+        container.appendChild(boloPoteEspecialDiv);
     }
 }
 
 document.getElementById('bolosEspeciais-section').innerHTML = `
-<h1>Bolos Especiais</h1>
 <main>
-<section id="bolosTradicional-section">
+<h1>Bolos Especiais</h1>
+
+<section id="bolosEspeciais-section">
 
   </section>
   </main>
