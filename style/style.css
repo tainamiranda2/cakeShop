@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
 footer {
   bottom: 0;
   width: 100%;
@@ -6,32 +10,40 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   background: #464646;
-  padding: 10px; /* Ajuste de padding para melhor espaçamento */
-  color: white; /* Texto em branco para melhor contraste */
+  padding: 5px; 
+  color: white; 
 }
 
 .one, .redes-sociais {
+margin: 15px;
   flex: 1;
-  margin: 10px; /* Ajuste de margem para espaçamento adequado */
 }
 
 .one {
-  display: flex;
-  flex-direction: column;
+  margin: 5px;
+  float: right;
+  width: 100%;
   align-items: center;
   text-align: center;
 }
 
-.redes-sociais {
-  display: flex;
-  justify-content: flex-end; /* Ajusta os links para a extremidade direita */
-  gap: 10px; /* Espaçamento entre os ícones */
+.redes-sociais  {
+  float: left;
 }
 
 .redes-sociais a {
-  margin: 0 5px;
+  margin-bottom: 5px;
+  margin: 5px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+.zap {
+ float: right;
 }
 
-.endereco, .zap {
-  margin-top: 5px;
+footer img {
+  border-radius: 50px;
+  width: 500px;
+  box-shadow:  8px 0px  rgba(0, 0, 0, 0.2);
+
 }

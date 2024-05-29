@@ -3,18 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   links.forEach(link => {
       link.addEventListener('click', function(event) {
-          event.preventDefault(); // Impede o comportamento padrão do link
+          event.preventDefault(); 
           
-          const sectionId = this.getAttribute('href'); // Obtém o href do link clicado
-          const targetSection = document.querySelector(sectionId); // Seleciona a seção correspondente
+          const sectionId = this.getAttribute('href'); 
+          const targetSection = document.querySelector(sectionId); 
 
-          // Esconde todas as seções
           const sections = document.querySelectorAll('.content-section');
           sections.forEach(section => {
               section.classList.add('d-none');
           });
 
-          // Exibe a seção correspondente ao link clicado
           targetSection.classList.remove('d-none');
       });
   });
@@ -53,7 +51,7 @@ document.getElementById('header').innerHTML = `
 <div class="logo-h1">
 <img class="logo" src="../img/logo.jpg" />
 
-<h1>Saboreando - Bolo de Pote</h1>
+<h2>Saboreando - Bolo de Pote</h2>
 </div>
 
 </div>
