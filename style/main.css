@@ -46,3 +46,9 @@ main img{
         cursor: pointer;
       
 }
+
+@media screen and (max-width: 500px) {
+    .bolos, .doces, .pizza, .bebidas{
+        width: 100%;
+    }
+}

@@ -1,16 +1,21 @@
-*{
-  margin: 0;
-  box-sizing: border-box;
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 20%; 
 }
 footer {
-  bottom: 0;
+
+bottom: 0px;
+ margin: 0px;
+position: absolute;
   width: 100%;
 
-  display: flex;
+   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+ flex-wrap: wrap;
   background: #464646;
-  padding: 5px; 
   color: white; 
 }
 
@@ -46,4 +51,10 @@ footer img {
   width: 500px;
   box-shadow:  8px 0px  rgba(0, 0, 0, 0.2);
 
+}
+
+@media screen and (max-width: 700px) {
+body{
+  margin: 0 0 100%;
+}
 }

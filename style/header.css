@@ -72,4 +72,15 @@ ul li {
      padding:10px;
    }
  
- 
+   @media screen and (max-width: 500px) {
+    nav{
+      display: block;
+    }
+    ul li {
+      display: block;
+    }
+    h2{
+        display: none;
+    }
+    
+}
