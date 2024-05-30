@@ -33,6 +33,7 @@ margin: 5px;
     width: 80%; 
     margin: 0 auto;
 }
+
 main img{
     margin: 5px;
     width: 100px;
@@ -48,7 +49,8 @@ main img{
         cursor: pointer;
       
 }
-main ul li a{
+#bolosTradicional-section ul li a, #bolosEspeciais-section ul li a, #bebidas-section
+ ul li a, main ul li a{
     color: #e5bd8b;
     text-align: center;
 }
