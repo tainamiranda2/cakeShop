@@ -26,14 +26,17 @@ function addBolodiv(num) {
         boloDiv.classList.add('bolos');
         boloDiv.style.display = 'inline-block';
         boloDiv.style.margin = '5px';
+        boloDiv.style.textDecoration="none";
+        boloDiv.style.textAlign="center"
+        boloDiv.style.color="#464646";
         boloDiv.innerHTML = `
 
             <img src="../img/bolo.jpg" class="" alt="Bolo de exemplo"/>
-            <div>
-                <h5>Bolos</h5>
-                <li><a href="#produto">teste</a></li>
-
-                <p>Bolo de chocolate ao leite</p>
+            <div>             
+               <ul> 
+               <li><a href="#produto"> <h5>Bolo</h5></a></li>
+               </ul>
+            <p>Bolo de chocolate ao leite</p>
                 <span>$ 36.00</span>
             </div>
         `;
@@ -49,10 +52,15 @@ function addDocediv(num) {
         doceDiv.classList.add('doces');
         doceDiv.style.display = 'inline-block';
         doceDiv.style.margin = '5px';
+        doceDiv.style.color="#464646";
+        doceDiv.style.textAlign="center"
+        doceDiv.style.textDecoration="none";
         doceDiv.innerHTML = `
             <img src="../img/doce.jpg" class="" alt="Doce de exemplo"/>
             <div>
-                <h5>Doce</h5>
+            <ul> 
+            <li><a href="#produto"> <h5>Doce</h5></a></li>
+            </ul>
                 <p>Doce de chocolate ao leite</p>
                 <span>$ 36.00</span>
             </div>
@@ -68,11 +76,16 @@ function addPizzadiv(num) {
         const pizzaDiv = document.createElement('div');
         pizzaDiv.classList.add('pizza');
         pizzaDiv.style.display = 'inline-block';
+        pizzaDiv.style.color="#464646";
         pizzaDiv.style.margin = '5px';
+        pizzaDiv.style.textAlign="center"
+        pizzaDiv.style.textDecoration="none";
         pizzaDiv.innerHTML = `
             <img src="../img/pizza.jpg" class="" alt="Pizza de exemplo"/>
             <div>
-                <h5>Pizza</h5>
+            <ul> 
+            <li><a href="#produto"> <h5>Pizza</h5></a></li>
+            </ul>
                 <p>Pizza de frango</p>
                 <span>$ 36.00</span>
             </div>

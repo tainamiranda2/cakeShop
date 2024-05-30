@@ -1,5 +1,5 @@
 
-.bolos, .doces, .pizza, .bebidas{
+.bolos, .doces, .pizza, .bebidas, .produto{
     padding: 2px ;
 border: solid 1px #e5bd8b;
 transition: 0.3s;
@@ -48,7 +48,7 @@ main img{
 }
 
 @media screen and (max-width: 500px) {
-    .bolos, .doces, .pizza, .bebidas{
+    .bolos, .doces, .pizza, .bebidas, .produto{
         width: 100%;
     }
 }

@@ -6,11 +6,16 @@ function addBoloPotEspecialdiv(num) {
         boloPoteEspecialDiv.classList.add('bolos');
         boloPoteEspecialDiv.style.display = 'inline-block';
         boloPoteEspecialDiv.style.margin = '5px';
+        boloPoteEspecialDiv.style.textDecoration="none";
+        boloPoteEspecialDiv.style.color="#464646";
+        boloPoteEspecialDiv.style.textAlign="center"
         boloPoteEspecialDiv.innerHTML = `
         <img src="../../img/boloespecial.jpg" class="" alt="Bolo de pote"/>
 
             <div>
-                <h5>Bolos</h5>
+            <ul> 
+            <li><a href="#produto"> <h5>Bolo</h5></a></li>
+            </ul> 
                 <p>Bolo de chocolate ao leite</p>
                 <span>$ 36.00</span>
             </div>

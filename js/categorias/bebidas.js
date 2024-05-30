@@ -6,11 +6,16 @@ function addBebidadiv(num) {
         BebidaDiv.classList.add('bebidas');
         BebidaDiv.style.display = 'inline-block';
         BebidaDiv.style.margin = '5px';
+        BebidaDiv.style.textDecoration="none";
+        BebidaDiv.style.color="#464646";
+        BebidaDiv.style.textAlign="center"
         BebidaDiv.innerHTML = `
         <img src="../../img/bebida.jpg" class="" alt="Bebida"/>
 
             <div>
-                <h5>Monster</h5>
+            <ul> 
+            <li><a href="#produto"> <h5>Bebida</h5></a></li>
+            </ul> 
                 <p>Moster</p>
                 <span>$ 9.00</span>
             </div>

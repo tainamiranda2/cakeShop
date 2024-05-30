@@ -1,0 +1,54 @@
+.orange {
+    margin: auto;
+}
+
+.orange-category {
+   display: flex; 
+   margin: 5px;
+}
+.bolo-photo-master{
+    width: 450px;
+}
+
+.bolo-photo{
+width: 100px;
+margin: 5px;
+}
+.info-orange{
+    color: #808080;
+    margin: 15px;
+}
+
+.info-orange span{
+color: #008000;
+}
+.info-orange h4{
+    color: #000;
+}
+.carrinho{
+display: flex;
+}
+.button-category{
+    background: #Ffa500;
+    padding: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+   width: 100%;
+   margin: 5px;
+}
+.orange .redes-sociais{
+    color: #808080;
+}
+#banana-produto{
+    margin: auto;
+    margin: 4px;
+}
+@media screen and (max-width: 700px) {
+    .orange-category{
+        display: inline;
+    }
+    .bolo-photo-master{
+        width: 200px;
+    }
+}

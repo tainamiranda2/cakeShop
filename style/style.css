@@ -18,7 +18,9 @@ position: absolute;
   background: #464646;
   color: white; 
 }
-
+ ul a {
+  text-decoration: none;
+}
 .one, .redes-sociais {
 margin: 15px;
   flex: 1;
