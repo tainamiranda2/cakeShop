@@ -17,7 +17,7 @@ function addBoloPotdiv(num) {
             <li><a href="#produto"> <h5>Bolo</h5></a></li>
             </ul>                
                 <p>Bolo de chocolate ao leite</p>
-                <span>$ 36.00</span>
+                <span>R$  36.00</span>
             </div>
         `;
         container.appendChild(boloPoteDiv);

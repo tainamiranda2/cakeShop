@@ -17,7 +17,7 @@ function addBebidadiv(num) {
             <li><a href="#produto"> <h5>Bebida</h5></a></li>
             </ul> 
                 <p>Moster</p>
-                <span>$ 9.00</span>
+                <span>R$  9.00</span>
             </div>
         `;
         container.appendChild(BebidaDiv);

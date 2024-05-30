@@ -37,7 +37,7 @@ function addBolodiv(num) {
                <li><a href="#produto"> <h5>Bolo</h5></a></li>
                </ul>
             <p>Bolo de chocolate ao leite</p>
-                <span>$ 36.00</span>
+                <span>R$ 36.00</span>
             </div>
         `;
         container.appendChild(boloDiv);
@@ -62,7 +62,7 @@ function addDocediv(num) {
             <li><a href="#produto"> <h5>Doce</h5></a></li>
             </ul>
                 <p>Doce de chocolate ao leite</p>
-                <span>$ 36.00</span>
+                <span>R$  36.00</span>
             </div>
         `;
         container.appendChild(doceDiv);
@@ -87,7 +87,7 @@ function addPizzadiv(num) {
             <li><a href="#produto"> <h5>Pizza</h5></a></li>
             </ul>
                 <p>Pizza de frango</p>
-                <span>$ 36.00</span>
+                <span>R$  36.00</span>
             </div>
         `;
         container.appendChild(pizzaDiv);

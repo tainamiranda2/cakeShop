@@ -26,7 +26,7 @@ document.getElementById('produto').innerHTML =  `
     </div>
     <div class="info-orange">
         <h4>Orange</h4>
-        <span>$ 20</span>
+        <span>R$  20.00</span>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor mauris vel sollicitudin facilisis.</p>
        
         <hr></hr>
