@@ -1,0 +1,38 @@
+
+aside h1{
+    color: #808080;
+}
+.principal-sessao{
+    margin-bottom: 20px;
+  align-items: flex-start;
+ 
+}
+
+.combo-galeria{
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+    margin: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+}
+
+.combo-galeria ul li a{
+     color: #808080;
+
+}
+
+.combo-galeria span{
+     color: #008000;
+}
+aside img {
+height: auto;
+margin: 5px;
+    width: 100px; 
+    height: auto; 
+}
+@media screen and (max-width: 700px) {
+    .combo-galeria{
+        display: inline;
+        margin: 4px;
+    }
+}
