@@ -4,11 +4,16 @@ function addBolodiv(num) {
     for (let i = 0; i < num; i++) {
         const boloDiv = document.createElement('div');
         boloDiv.classList.add('banana-produto');
-        boloDiv.style.display = 'inline-block';
-        boloDiv.style.margin = 'auto';
+        boloDiv.style.display = 'inline-flex';
+      boloDiv.style.alignItems="center"
+        boloDiv.style.margin = '5px';
+
         boloDiv.innerHTML = `
             <img src="../img/banana.jpg" alt="Bolo de exemplo"/>
-           
+          <div>
+            <p>Banana</p>
+            <span>R$  10.00</span>
+            </div>
         `;
         container.appendChild(boloDiv);
     }
@@ -67,15 +72,16 @@ document.getElementById('produto').innerHTML =  `
       </svg>
     </a>
 </div>
-    </div>
-    
-
+   
 </div>
+    
+</div>
+<div class="img-produto">
 <h3>Você pode se interessar</h3>
 <section id="banana-produto">
-   
-</section>
 
+</section>
+</div>
 </section>
 `;
 addBolodiv(4);

@@ -40,9 +40,17 @@ display: flex;
 .orange .redes-sociais{
     color: #808080;
 }
-#banana-produto{
-    margin: auto;
-    margin: 4px;
+.banana-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banana-produto img {
+    width: 200px;
+    margin-left: 30px;
+    height: auto;
 }
 @media screen and (max-width: 700px) {
     .orange-category{
